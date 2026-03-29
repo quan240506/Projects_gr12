@@ -1,4 +1,5 @@
 NGÔN NGỮ ĐƯỢC DÙNG
+
  HTML5 – xây dựng cấu trúc trang web 
  CSS3 – thiết kế giao diện và bố cục trang 
  JavaScript – xử lý logic và tương tác người dùng 
@@ -6,6 +7,7 @@ NGÔN NGỮ ĐƯỢC DÙNG
  SVG – hiển thị đồ họa (tracking đơn hàng, icon) 
 
 TÍNH NĂNG CHÍNH
+
  1. Single Page Application (SPA)
   Điều hướng bằng hash (#) 
   Không cần reload trang 
@@ -47,6 +49,7 @@ TÍNH NĂNG CHÍNH
   Hỗ trợ gửi hình ảnh (có nén để tiết kiệm dung lượng) 
 
 CƠ CHẾ LƯU TRỮ
+
  Dữ liệu được lưu bằng LocalStorage trên trình duyệt:
  tour_chat_messages – lưu tin nhắn chatbot 
  tour_cart – lưu danh sách tour đã chọn 
@@ -56,6 +59,7 @@ CƠ CHẾ LƯU TRỮ
  Nếu người dùng đăng nhập, các key sẽ được gắn thêm email để phân biệt dữ liệu giữa các tài khoản.
 
 KẾT LUẬN
+
  Dự án đã xây dựng thành công một hệ thống website đặt tour du lịch với các chức năng cơ bản như:
  Xem và tìm kiếm tour 
  Đặt tour và quản lý đơn hàng 
