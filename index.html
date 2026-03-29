@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Dream Travel Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">🌍 DreamTravel</div>
+  <nav>
+    <a href="#">Trang chủ</a>
+    <a href="#">Trong nước</a>
+    <a href="#">Nước ngoài</a>
+    <a href="#">Cẩm nang</a>
+  </nav>
+</header>
+
+<!-- BANNER -->
+<section class="banner">
+  <h1>Khám phá du lịch Việt Nam</h1>
+  <input type="text" placeholder="Bạn muốn đi đâu?" oninput="search(this.value)">
+</section>
+
+<!-- FILTER -->
+<section class="filter">
+  <select onchange="filterRegion(this.value)">
+    <option value="">Tất cả khu vực</option>
+    <option>Miền Bắc</option>
+    <option>Miền Trung</option>
+    <option>Miền Nam</option>
+  </select>
+</section>
+
+<!-- TOUR LIST -->
+<section class="container">
+  <div class="grid" id="tours"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
