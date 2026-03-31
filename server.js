@@ -1,5 +1,5 @@
 const express = require('express');
-const { Pool } = require('pg'); // Sử dụng PostgreSQL (phổ biến trên Render)
+const { Pool } = require('pg'); 
 const path = require('path');
 require('dotenv').config();
 
