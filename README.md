@@ -18,10 +18,6 @@ admin.js: Xử lý thêm/sửa/xóa Tour và quản lý đơn hàng.
 
 user.js: Xử lý xem tour và gửi yêu cầu đặt tour.
 
-views/: Chứa giao diện (index.html, admin.html, login.html, tour-detail.html).
-
-public/: Chứa tài nguyên tĩnh (css/style.css, js/main.js, images/).
-
  THU THẬP VÀ PHÂN TÍCH YÊU CẦU
 Yêu cầu chức năng
 Khách hàng: Tìm kiếm tour, xem chi tiết lịch trình, đăng ký nhận bản tin, đặt tour trực tuyến.
